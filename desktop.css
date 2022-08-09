@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+body{
+    height: 300vh;
+}
+
+header {
+    top: 2rem;
+    padding: 0 3rem;
+}
+
+.header-logo {
+    width: 100%;
+    max-width: 8em;
+}
+
+.navbar {
+    gap: 1.5rem;
+}
+
+.navbar a {
+    font-size: 1em;
+}
+
+.first-section {
+    height: 100vh;
+    padding: 0rem 3rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: left;
+}
+
+.s1-img {
+    width: 100%;
+    max-width: 55em;
+}
+
+.first-article {
+    width: 100%;
+    max-width: 40em;
+}
+
+.first-section h2 {
+    font-size: 2.5em;
+}
+
+.first-section p {
+    font-size: 1.2em;
+    padding: 0 0 1.5rem 0;
+}
+
+.fa-registration {
+    display: flex;
+    align-items: center;
+}
+
+.fa-registration input {
+    height: 2.5em;
+    padding: 0.4rem 0.8rem;
+    margin-right: 1rem;
+}
+
+.getstarted-btn {
+    font-size: 0.8em;
+    padding: 1.05rem 4rem;
+    text-decoration: none;
+    border-radius: 0.2rem;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-container {
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.5rem;
+}
+
+/* Second Section */
+
+.second-section {
+    height: 100vh;
+    padding: 0rem 3rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align: left;
+    gap: 2rem;
+    background-image: url(./images/bg-curve-desktop.svg);
+}
+
+.s2-img {
+    width: 100%;
+    max-width: 50em;
+    padding: 0 0;
+}
+
+.s2-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-section h4 {
+    font-size: 2.5em;
+}
+
+.second-section p {
+    font-size: 1.2em;
+    word-wrap: normal;
+    width: 35em;
+}
+
+.link-container {
+    align-items: flex-start;
+    margin: 2.5rem 0rem;
+    cursor: pointer;
+}
+
+.line {
+    max-width: 8.8em;
+}
+
+.comment-container {
+    width: 20em;
+    align-self: flex-start;
+}
+
+.comment-container .quote {
+    font-size: 0.85em;
+    line-height: 1.8em;
+    word-wrap: normal;
+    width: 21em;
+}
+
+/* Third Section */
+
+.third-section {
+    height: 40vh;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    gap: 2rem;
+}
+
+.s3-left , .s3-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.s3-left {
+    width: 55%;
+}
+
+.s3-right {
+    width: 44%;
+}
+
+.s3-left h3 {
+    font-size: 2.2em;
+}
+
+.s3-left p {
+    padding: 2rem 0;
+    font-size: 1.1em;
+    text-align: left;
+    word-wrap: normal;
+    width: 30em;
+}
+
+.s3-right input {
+    max-width: 30em;
+}
+
+.s3-right a {
+    margin-top: 1rem;
+}
+
+.btn-container {
+    padding: 0rem 0;
+}
+
+/* Footer */
+footer {
+    height: 60vh;
+    padding: 1rem 3rem;
+}
+
+.footer-info {
+    display: grid;
+    grid-template-columns: repeat(3,25em);
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.social-container {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    margin-top: 0rem;
+}
